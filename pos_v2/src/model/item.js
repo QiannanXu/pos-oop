@@ -5,14 +5,4 @@ function Item(barcode, name, unit, price) {
     this.price = price || 0.00;
 }
 
-function getBarcode()
-{
-	return this.barcode;
-}
-
-function getName()
-{
-	return this.name;
-}
-
 
